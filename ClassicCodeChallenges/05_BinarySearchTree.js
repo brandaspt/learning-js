@@ -14,23 +14,6 @@ class _Node {
         this.left = null
         this.right = null
     }
-    /*
-    insert(data) {
-      if (data > this.data) {
-        if (this.right) {
-          this.right.insert(data)
-        } else {
-          this.right = new _Node(data)
-        }
-      } else if (data < this.data) {
-        if (this.left) {
-            this.left.insert(data)
-        } else {
-            this.left = new _Node(data)
-        }
-      }
-    }
-    */
 }
 
 class BinarySearchTree {
